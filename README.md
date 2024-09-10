@@ -20,6 +20,8 @@ Ubuntu 20.04
 
 ```
 git clone https://github.com/MOYANINK/ossec-wui-new.git
+cd ossec-wui-new
+unzip ossec-wui-new
 cp -r ossec-wui-new /var/www/html/ossec
 cd /var/www/html/ossec
 sudo ./setup.sh
